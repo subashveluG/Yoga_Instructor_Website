@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fafafa;
+}
+header {
+    background: #6ab04c;
+    padding: 15px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+#hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: #dfffe0;
+}
+button {
+    padding: 10px 20px;
+    background: #6ab04c;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+section {
+    padding: 40px 20px;
+}
+.blog-post {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 5px solid #6ab04c;
+}
+.blog-post a {
+    color: #6ab04c;
+    text-decoration: none;
+}
+
+/* Pricing Page */
+.pricing-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.pricing-card {
+    background: white;
+    padding: 20px;
+    width: 280px;
+    border-radius: 5px;
+    border-left: 5px solid #6ab04c;
+}
+.price {
+    font-size: 22px;
+    font-weight: bold;
+    color: #6ab04c;
+}
